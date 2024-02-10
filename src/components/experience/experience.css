@@ -1,0 +1,120 @@
+
+#experience{
+    height: 100%;
+    margin-top: 160px;
+    margin-bottom: 100px;
+}
+.experience-cards{
+    height: 100%;
+    padding-inline: 30px;
+   
+}
+.skills-card{
+    margin: auto;
+    padding-inline: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    margin-block: 120px;
+
+}
+.skill-div{
+    width: 140px;
+    height: 140px;
+    padding-top: 15px;
+    background-color: rgba(78, 68, 128, 0.212);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.skill-div:hover{
+    background-color: rgb(52, 23, 119);
+    cursor: pointer;
+}
+.skill-logo{
+    width:60%;
+}
+
+.certificate-icons{
+    margin-top: 5px;
+}
+
+.certification{
+    margin: auto;
+    width: 50vw;
+    max-width: 999px;
+    background-color: var(--color-bg-variant);
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.certficate_content{
+    display: grid;
+   grid-template-columns: 2fr 2fr;
+    gap: 10px;
+}
+.certificate{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+  
+.certificate > div> a{
+    color: #fff;
+    opacity: .9;
+}
+.certificate>div>p{
+    margin: 0;
+   font-size: 1rem;
+}
+
+@media screen and (max-width:1024px) {
+    .experience-cards{
+        height: 100%;
+    }
+
+    .certficate_content{
+        display: block;
+        gap: 0px;
+    }
+
+    .certification{
+        width: 70%;
+        
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .experience-cards{
+        height: 100%;
+        padding: 0;
+    }
+    .skills-card{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .certficate_content{
+        display: block;
+        gap: 0px;
+        padding:.6rem;
+    }
+
+    .certification{
+        margin-top: 100px;
+        width: 92%;
+        padding: 4px 10px;
+        font-size: 1rem;
+        
+    }
+ 
+}
+
