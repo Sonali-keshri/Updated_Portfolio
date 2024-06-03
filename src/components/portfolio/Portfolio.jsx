@@ -3,12 +3,13 @@ import "./portfolio.css";
 import project1 from "../../assests/crudapp.png";
 import project2 from "../../assests/chatapp_home.png";
 import project3 from '../../assests/hackthon_Submission.png'
-import project4 from "../../assests/weatherapp.png";
-import project5 from "../../assests/product_cart.png";
-import project6 from "../../assests/text-utilizer.png";
+import project4 from "../../assests/movie_app.png";
+import project5 from "../../assests/weatherapp.png";
+import project6 from "../../assests/product_cart.png";
+import project7 from "../../assests/text-utilizer.png";
 // import project5 from "../../assests/todoapp.png";
-import project7 from "../../assests/landingPage.png";
-import project8 from "../../assests/newsapp.png";
+import project8 from "../../assests/landingPage.png";
+import project9 from "../../assests/newsapp.png";
 
 const Portfolio = () => {
   const data = [
@@ -37,33 +38,41 @@ const Portfolio = () => {
       id: 4,
       image: project4,
       title: "Weather App we can see the temparature of any place",
+      github: "https://github.com/Sonali-keshri/Movie_APP",
+      demo: "https://main--magical-show-movieapp.netlify.app/",
+      
+    },
+    {
+      id: 5,
+      image: project4,
+      title: "Weather App we can see the temparature of any place",
       github: "https://github.com/Sonali-keshri/weatherApp",
       demo: "https://snowaweatherapp.netlify.app",
       
     },
     {
-      id: 5,
+      id: 6,
       image: project5,
       title: "Product cart App to place an order",
       github: "https://github.com/Sonali-keshri/Product_Cart_APP",
       demo: "https://sonali-productcart.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       image: project6,
       title: "Text-Changer to manipulate the text",
       github: "https://github.com/Sonali-keshri/Text-changer",
       demo: "https://text-changerapp.netlify.app",
     },
     {
-      id: 7,
+      id: 8,
       image: project7,
       title: "Responisive Landing Page using Bootstrap",
       github: "https://github.com/Sonali-keshri/LandingPage",
       demo: "https://intelthinkpage.netlify.app/",
     },
     {
-      id: 8,
+      id: 9,
       image: project8,
       title: "Daily News App by using fetchApi And API used here from NewsApi",
       github: "https://github.com/Sonali-keshri/NewsApp",

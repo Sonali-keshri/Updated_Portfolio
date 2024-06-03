@@ -19,7 +19,7 @@ const about = () => {
         <div className="about_content">
 
           <p>
-            I'm a last-year student of Computer Science from Sri Venkateswara College of Engineering and Technology, Chittoor.<br />
+            I'm a recently graduate student of Computer Science from Sri Venkateswara College of Engineering and Technology, Chittoor.<br />
             I have a strong understanding of HTML, CSS, and JavaScript and experience with JavaScript framework such as React.js.<br />
             I am passionate about staying up to date with the latest trends and advancements in web development and constantly seeking new challenges to improve my skills.
           </p>
