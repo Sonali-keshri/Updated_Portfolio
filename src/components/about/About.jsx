@@ -19,9 +19,7 @@ const about = () => {
         <div className="about_content">
 
           <p>
-            I'm a recently graduate student of Computer Science from Sri Venkateswara College of Engineering and Technology, Chittoor.<br />
-            I have a strong understanding of HTML, CSS, and JavaScript and experience with JavaScript framework such as React.js.<br />
-            I am passionate about staying up to date with the latest trends and advancements in web development and constantly seeking new challenges to improve my skills.
+          Recent Garduate in BTech Computer Science. Also a Software Developer with 7 months of experience in creating user-friendly interfaces using React.js and Redux. Designed and maintained the previous company's websites and application that increased user engagement by 15%. Quick to learn new technologies, recently mastered Nodejs and Nextjs in 6 months to support backend development.
           </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>

@@ -1,4 +1,4 @@
-
+/* 
 #experience{
     height: 100%;
     margin-top: 160px;
@@ -117,4 +117,182 @@
     }
  
 }
+ */
 
+
+ /* General section styling */
+#experience {
+    /* padding: 2rem ; */
+    /* margin-inline: 2px; */
+    /* background-color: #1f1f1f; */
+    color: white;
+  }
+  
+  #experience h2,
+  #experience h5 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .experience-cards {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  
+  .skills-card,
+  .certification,
+  .experience {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  /* Skills Card Styling */
+  .skills-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: #2a2a2a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-div {
+    max-width: 140px;
+    text-align: center;
+    flex: 1 1 120px;
+    padding: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill-div p {
+    font-weight: bold;
+    color: #4db5ff;
+  }
+  
+  /* Certification Card Styling */
+  .certification {
+    background: #2a2a2a;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certification h3 {
+    text-align: left;
+  }
+  
+  .certificate_content {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .certificate {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .certificate:hover {
+    background: #333;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .certificate-icons {
+    color: #4db5ff;
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  
+  .certificate a {
+    font-weight: bold;
+    color: #4db5ff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .certificate a:hover {
+    color: #fff;
+  }
+  
+  .certificate p {
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+  
+  /* Experience card styling */
+  .experience h3 {
+    text-align: left;
+  }
+  
+  .experience_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .experience-card {
+    background: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .experience-card h4 {
+    margin-bottom: 0.5rem;
+    color: #4db5ff;
+  }
+  
+  .experience-card p {
+    margin-bottom: 0.5rem;
+    color: #ccc;
+  }
+  
+  .experience-card ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+    color: #ccc;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .experience-cards {
+      flex-direction: column;
+    }
+  
+    .skill-div {
+      flex: 1 1 70px;
+    }
+  }
+  
